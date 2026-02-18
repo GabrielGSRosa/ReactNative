@@ -35,12 +35,13 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         width: 300,
-
-        //justifyContent: 'flex-start',
+        paddingVertical: 15,
 
         // Debug
+        /*
         borderWidth: 2,
         borderColor: 'red'
+        */
     },
     card: {
         width: '100%',
@@ -48,7 +49,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         height: 50,
         paddingHorizontal: 5,
-        marginVertical: 10,
+        marginVertical: 5,
         backgroundColor: '#4e4e4e',
         borderRadius: 10,
     },
